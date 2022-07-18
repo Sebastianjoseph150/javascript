@@ -1,0 +1,67 @@
+<html>
+
+<body style="background-color: rgb(246, 246, 167) ; ">
+
+    <!-- date and time printing -->
+
+    <h2>date and time </h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML= Date()">
+clik me to display Date and time.
+</button>
+    <p id="demo"></p>
+
+    <!-- changing html content  -->
+    <div>
+        <h2>changing contet</h2>
+        <script>
+            function myFunction() {
+                document.getElementById("demo1").innerHTML = "Paragraph changed.";
+            }
+        </script>
+        </head>
+        <p id="demo1">A Paragraph</p>
+        <button type="button" onclick="myFunction()">Try it</button>
+    </div>
+
+    <!-- docum.write -->
+    <p>
+        hi am sebastian this is my first web page using javascript
+
+    </p>
+    <script>
+        document.write(5 + 6);
+    </script>
+    <!-- using innerHTML -->
+    <div>
+        <p> hello my name is sebastian
+            <script>
+                < button type = "button"
+                onclick = "document.write(5 +7 )" >
+                    try it </button>
+            </script>
+        </p>
+    </div>
+
+    <div>
+        <h2>JavaScript Statements</h2>
+
+        <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.<br> let x, y, z; <br> x = 5; <br> y = 6; <br> z = x + y;<br> then what is the value of 'z'
+        </p>
+
+
+        <p id="demo2">
+
+        </p>
+        <script>
+            let x, y, z; // Statement 1
+            x = 5; // Statement 2
+            y = 6; // Statement 3
+            z = x + y; // Statement 4
+
+            document.getElementById("demo").innerHTML =
+                "The value of z is " + z + ".";
+        </script>
+    </div>
+</body>
+
+</html>
